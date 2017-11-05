@@ -1,0 +1,5 @@
+/home/INTRANET/duroyon/myfiles/Neurons/build/CMakeFiles/doc.dir
+/home/INTRANET/duroyon/myfiles/Neurons/build/gtest/CMakeFiles/gtest.dir
+/home/INTRANET/duroyon/myfiles/Neurons/build/CMakeFiles/Neurons.dir
+/home/INTRANET/duroyon/myfiles/Neurons/build/gtest/CMakeFiles/gtest_main.dir
+/home/INTRANET/duroyon/myfiles/Neurons/build/CMakeFiles/NeuronsTEST.dir

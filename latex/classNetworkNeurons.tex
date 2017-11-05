@@ -1,0 +1,144 @@
+\hypertarget{classNetworkNeurons}{\section{Network\-Neurons Class Reference}
+\label{classNetworkNeurons}\index{Network\-Neurons@{Network\-Neurons}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classNetworkNeurons_a85d14e627ed6be6077d45ab4a59f519f}{Network\-Neurons} (unsigned long Nbr\-Neurons, unsigned long Nbr\-N\-E, unsigned long Nbr\-N\-I, double g, double eta)
+\item 
+\hyperlink{classNetworkNeurons_a96d9c4e226bfd0acf22097cffb9c6a5f}{$\sim$\-Network\-Neurons} ()
+\item 
+void \hyperlink{classNetworkNeurons_a54a791d2f3e64b333e8b195644b6f90c}{update} (unsigned long t\-Stop, std\-::string title)
+\item 
+std\-::vector$<$ \hyperlink{classNeuron}{Neuron} $>$ \hyperlink{classNetworkNeurons_a6601ea8c8fd909aa9f33edf3d8f8b24c}{Get\-All\-Neurons\-\_\-} () const 
+\item 
+std\-::vector$<$ std\-::vector$<$ int $>$ $>$ \hyperlink{classNetworkNeurons_abd9af677875dfd2ca7bca44fda2007be}{Get\-Network\-Connections\-\_\-} () const 
+\item 
+unsigned long \hyperlink{classNetworkNeurons_ad6b040b3fb4cad3995206fd827708a4f}{Get\-Nbr\-Neurons\-\_\-} () const 
+\item 
+unsigned long \hyperlink{classNetworkNeurons_aa2f526dc0308c6f68934f95af01448e2}{Get\-Nbr\-N\-I\-\_\-} () const 
+\item 
+unsigned long \hyperlink{classNetworkNeurons_a0583058a581aed7e85bfa6f44505a1b7}{Get\-Nbr\-N\-E\-\_\-} () const 
+\item 
+unsigned long \hyperlink{classNetworkNeurons_add06f4c3781aba52dc88052b68f2c592}{Get\-C\-E\-\_\-} () const 
+\item 
+unsigned long \hyperlink{classNetworkNeurons_aa7ea29b5a1483207a9b03cbc40ffddb8}{Get\-C\-I\-\_\-} () const 
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classNetworkNeurons_a85d14e627ed6be6077d45ab4a59f519f}{\index{Network\-Neurons@{Network\-Neurons}!Network\-Neurons@{Network\-Neurons}}
+\index{Network\-Neurons@{Network\-Neurons}!NetworkNeurons@{Network\-Neurons}}
+\subsubsection[{Network\-Neurons}]{\setlength{\rightskip}{0pt plus 5cm}Network\-Neurons\-::\-Network\-Neurons (
+\begin{DoxyParamCaption}
+\item[{unsigned long}]{Nbr\-Neurons, }
+\item[{unsigned long}]{Nbr\-N\-E, }
+\item[{unsigned long}]{Nbr\-N\-I, }
+\item[{double}]{g, }
+\item[{double}]{eta}
+\end{DoxyParamCaption}
+)}}\label{classNetworkNeurons_a85d14e627ed6be6077d45ab4a59f519f}
+Constructeur for the class \hyperlink{classNetworkNeurons}{Network\-Neurons} 
+\begin{DoxyParams}{Parameters}
+{\em total} & Number of neurons, Number of excitatory neurons, Number in inhibitory neurons \\
+\hline
+\end{DoxyParams}
+\hypertarget{classNetworkNeurons_a96d9c4e226bfd0acf22097cffb9c6a5f}{\index{Network\-Neurons@{Network\-Neurons}!$\sim$\-Network\-Neurons@{$\sim$\-Network\-Neurons}}
+\index{$\sim$\-Network\-Neurons@{$\sim$\-Network\-Neurons}!NetworkNeurons@{Network\-Neurons}}
+\subsubsection[{$\sim$\-Network\-Neurons}]{\setlength{\rightskip}{0pt plus 5cm}Network\-Neurons\-::$\sim$\-Network\-Neurons (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classNetworkNeurons_a96d9c4e226bfd0acf22097cffb9c6a5f}
+Destructeur for the class \hyperlink{classNetworkNeurons}{Network\-Neurons} 
+
+\subsection{Member Function Documentation}
+\hypertarget{classNetworkNeurons_a6601ea8c8fd909aa9f33edf3d8f8b24c}{\index{Network\-Neurons@{Network\-Neurons}!Get\-All\-Neurons\-\_\-@{Get\-All\-Neurons\-\_\-}}
+\index{Get\-All\-Neurons\-\_\-@{Get\-All\-Neurons\-\_\-}!NetworkNeurons@{Network\-Neurons}}
+\subsubsection[{Get\-All\-Neurons\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ {\bf Neuron} $>$ Network\-Neurons\-::\-Get\-All\-Neurons\-\_\- (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNetworkNeurons_a6601ea8c8fd909aa9f33edf3d8f8b24c}
+Getter for the vector regrouping all Neurons \begin{DoxyReturn}{Returns}
+All\-Neurons\-\_\- 
+\end{DoxyReturn}
+\hypertarget{classNetworkNeurons_add06f4c3781aba52dc88052b68f2c592}{\index{Network\-Neurons@{Network\-Neurons}!Get\-C\-E\-\_\-@{Get\-C\-E\-\_\-}}
+\index{Get\-C\-E\-\_\-@{Get\-C\-E\-\_\-}!NetworkNeurons@{Network\-Neurons}}
+\subsubsection[{Get\-C\-E\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long Network\-Neurons\-::\-Get\-C\-E\-\_\- (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNetworkNeurons_add06f4c3781aba52dc88052b68f2c592}
+Getter for the number of excitatory connections \begin{DoxyReturn}{Returns}
+C\-E\-\_\- 
+\end{DoxyReturn}
+\hypertarget{classNetworkNeurons_aa7ea29b5a1483207a9b03cbc40ffddb8}{\index{Network\-Neurons@{Network\-Neurons}!Get\-C\-I\-\_\-@{Get\-C\-I\-\_\-}}
+\index{Get\-C\-I\-\_\-@{Get\-C\-I\-\_\-}!NetworkNeurons@{Network\-Neurons}}
+\subsubsection[{Get\-C\-I\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long Network\-Neurons\-::\-Get\-C\-I\-\_\- (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNetworkNeurons_aa7ea29b5a1483207a9b03cbc40ffddb8}
+Getter for the number of inhibitory connections \begin{DoxyReturn}{Returns}
+C\-I\-\_\- 
+\end{DoxyReturn}
+\hypertarget{classNetworkNeurons_a0583058a581aed7e85bfa6f44505a1b7}{\index{Network\-Neurons@{Network\-Neurons}!Get\-Nbr\-N\-E\-\_\-@{Get\-Nbr\-N\-E\-\_\-}}
+\index{Get\-Nbr\-N\-E\-\_\-@{Get\-Nbr\-N\-E\-\_\-}!NetworkNeurons@{Network\-Neurons}}
+\subsubsection[{Get\-Nbr\-N\-E\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long Network\-Neurons\-::\-Get\-Nbr\-N\-E\-\_\- (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNetworkNeurons_a0583058a581aed7e85bfa6f44505a1b7}
+Getter for the number of excitatory neurons \begin{DoxyReturn}{Returns}
+Nbr\-N\-E\-\_\- 
+\end{DoxyReturn}
+\hypertarget{classNetworkNeurons_ad6b040b3fb4cad3995206fd827708a4f}{\index{Network\-Neurons@{Network\-Neurons}!Get\-Nbr\-Neurons\-\_\-@{Get\-Nbr\-Neurons\-\_\-}}
+\index{Get\-Nbr\-Neurons\-\_\-@{Get\-Nbr\-Neurons\-\_\-}!NetworkNeurons@{Network\-Neurons}}
+\subsubsection[{Get\-Nbr\-Neurons\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long Network\-Neurons\-::\-Get\-Nbr\-Neurons\-\_\- (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNetworkNeurons_ad6b040b3fb4cad3995206fd827708a4f}
+Getter for the number of neurons \begin{DoxyReturn}{Returns}
+Nbr\-Neurons\-\_\- 
+\end{DoxyReturn}
+\hypertarget{classNetworkNeurons_aa2f526dc0308c6f68934f95af01448e2}{\index{Network\-Neurons@{Network\-Neurons}!Get\-Nbr\-N\-I\-\_\-@{Get\-Nbr\-N\-I\-\_\-}}
+\index{Get\-Nbr\-N\-I\-\_\-@{Get\-Nbr\-N\-I\-\_\-}!NetworkNeurons@{Network\-Neurons}}
+\subsubsection[{Get\-Nbr\-N\-I\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}unsigned long Network\-Neurons\-::\-Get\-Nbr\-N\-I\-\_\- (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNetworkNeurons_aa2f526dc0308c6f68934f95af01448e2}
+Getter for the number of inhibitory neurons \begin{DoxyReturn}{Returns}
+Nbr\-N\-I\-\_\- 
+\end{DoxyReturn}
+\hypertarget{classNetworkNeurons_abd9af677875dfd2ca7bca44fda2007be}{\index{Network\-Neurons@{Network\-Neurons}!Get\-Network\-Connections\-\_\-@{Get\-Network\-Connections\-\_\-}}
+\index{Get\-Network\-Connections\-\_\-@{Get\-Network\-Connections\-\_\-}!NetworkNeurons@{Network\-Neurons}}
+\subsubsection[{Get\-Network\-Connections\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ std\-::vector$<$ int $>$ $>$ Network\-Neurons\-::\-Get\-Network\-Connections\-\_\- (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classNetworkNeurons_abd9af677875dfd2ca7bca44fda2007be}
+Getter for the vector regrouping all the network connections \begin{DoxyReturn}{Returns}
+Network\-Connections\-\_\- 
+\end{DoxyReturn}
+\hypertarget{classNetworkNeurons_a54a791d2f3e64b333e8b195644b6f90c}{\index{Network\-Neurons@{Network\-Neurons}!update@{update}}
+\index{update@{update}!NetworkNeurons@{Network\-Neurons}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}void Network\-Neurons\-::update (
+\begin{DoxyParamCaption}
+\item[{unsigned long}]{t\-Stop, }
+\item[{std\-::string}]{title}
+\end{DoxyParamCaption}
+)}}\label{classNetworkNeurons_a54a791d2f3e64b333e8b195644b6f90c}
+Updates the Network until all steps are completed 
+\begin{DoxyParams}{Parameters}
+{\em t\-Stop} & the number of steps after which the simulation stops and title\-: name file \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Network\-Neurons.\-hpp\item 
+Network\-Neurons.\-cpp\end{DoxyCompactItemize}
